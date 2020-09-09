@@ -32,7 +32,7 @@ class Home extends React.Component{
     const { isLoading, movies } = this.state;
 
     return (
-      <section className="contain"> 
+      <section className="container"> 
       {isLoading 
       ? (
         <div>
